@@ -19,13 +19,13 @@
         android:text="点击跳过" />
 -->
     <ImageView
-        android:layout_width="250dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:src="@drawable/weather"
-        android:layout_marginTop="93dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_alignParentTop="true"
+        android:id="@+id/imageView3"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -36,21 +36,19 @@
         android:text="5"
         android:textColor="#121212"
         android:textSize="20sp"
-
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="35dp"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_alignStart="@+id/imageView" />
+        android:layout_above="@+id/textView2"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="24dp" />
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
         android:src="@drawable/logo"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_above="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="25dp" />
+        android:layout_centerHorizontal="true" />
 
 
     <TextView
